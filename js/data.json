@@ -3,31 +3,31 @@ var data = `[
         "name": "Reservoir Dogs",
         "description": "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
         "image": "img/dogs.jpg",
-        "likes": 5
+        "likes": 0
     },
     {
-        "name": "Reservoir Dogs",
-        "description": "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
-        "image": "img/dogs.jpg",
-        "likes": 7    },
-    {
-        "name": "Reservoir Dogs",
-        "description": "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
-        "image": "img/dogs.jpg",
-        "likes": 2    },
-    {
-        "name": "Reservoir Dogs",
-        "description": "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
-        "image": "img/dogs.jpg",
+        "name": "Rambo: First Blood",
+        "description": "A veteran Green Beret is forced by a cruel Sheriff and his deputies to flee into the mountains and wage an escalating one-man war against his pursuers.",
+        "image": "img/rambo.jpg",
         "likes": 0    },
     {
-        "name": "Reservoir Dogs",
-        "description": "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
-        "image": "img/dogs.jpg",
-        "likes": 1    },
+        "name": "The Big Lebowski",
+        "description": "Jeff The Dude Lebowski, mistaken for a millionaire of the same name, seeks restitution for his ruined rug and enlists his bowling buddies to help get it.",
+        "image": "img/lebowski.jpg",
+        "likes": 0    },
     {
-        "name": "Reservoir Dogs",
-        "description": "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
-        "image": "img/dogs.jpg",
-        "likes": 4    }
+        "name": "Interstellar",
+        "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        "image": "img/interstellar.jpg",
+        "likes": 0    },
+    {
+        "name": "Pulp Fiction",
+        "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+        "image": "img/pulp.jpg",
+        "likes": 0    },
+    {
+        "name": "American Gangster",
+        "description": "An outcast New York City cop is charged with bringing down Harlem drug lord Frank Lucas, whose real life inspired this partly biographical film.",
+        "image": "img/gangster.jpg",
+        "likes": 0    }
 ]`;
