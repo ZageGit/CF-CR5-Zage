@@ -1,0 +1,33 @@
+var data = `[
+    {
+        "name": "Reservoir Dogs",
+        "description": "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
+        "image": "img/dogs.jpg",
+        "likes": 5
+    },
+    {
+        "name": "Reservoir Dogs",
+        "description": "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
+        "image": "img/dogs.jpg",
+        "likes": 7    },
+    {
+        "name": "Reservoir Dogs",
+        "description": "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
+        "image": "img/dogs.jpg",
+        "likes": 2    },
+    {
+        "name": "Reservoir Dogs",
+        "description": "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
+        "image": "img/dogs.jpg",
+        "likes": 0    },
+    {
+        "name": "Reservoir Dogs",
+        "description": "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
+        "image": "img/dogs.jpg",
+        "likes": 1    },
+    {
+        "name": "Reservoir Dogs",
+        "description": "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
+        "image": "img/dogs.jpg",
+        "likes": 4    }
+]`;
