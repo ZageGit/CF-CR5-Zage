@@ -1,7 +1,7 @@
 let movies = JSON.parse(data);
 
 for (let i = 0; i < movies.length; i++) {
-  $("#append").append(`<div class="col-md-6"">
+  $("#append").append(`<div data-likes="${movies[i].likes}" class="col-12 col-lg-6"">
   <div class="card text-white bg-dark flex-md-row mb-4 shadow-sm h-md-250">
      <div class="card-body d-flex flex-column align-items-stretch border-solid-red">
         <strong class="d-inline-block mb-2 text-white">${movies[i].name}</strong>
@@ -20,15 +20,23 @@ for (let i = 0; i < movies.length; i++) {
 $(document).ready(function(){
 $(".btn").on('click', function(){
     let index = $(this).attr("name");
-    movies[index].likes++;
+    movies[index].likes++;    
     let par = $(this).parent()
     par.find("span").text(movies[index].likes);
-    let order = par.find("span").html();
     let test = $(par.parent().parent().parent());
-    test.attr("id",order);
-    console.log(test);
-        
+    test.attr("data-likes",movies[index].likes);
+    
+    
 });
+$("#sort").on('click', function(){
+  console.log('click');
+  var result =$("#append > div").sort(function (a, b) {
+    var contentA =parseInt( $(a).data('likes'));
+    var contentB =parseInt( $(b).data('likes'));
+    return (contentA < contentB) ? 1 : (contentA > contentB) ? -1 : 0;
+  }).appendTo($("#append"));
+  // $('#append').html(result);
+})
 
 
 })
